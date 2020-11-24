@@ -1,73 +1,46 @@
 # spfx-kql-explorer
 
-## Summary
+[for English](https://github.com/MickNabewata/spfx-kql-explorer/blob/master/README_EN.md)
 
-Short summary on functionality and used technologies.
+## 概要
 
-[picture of the solution in action, if possible]
+Graph APIのsearchエンドポイントを利用した検索処理をテストするためのツールです。   
+サンプルのリクエストもいくつか含まれています。
 
-## Used SharePoint Framework Version
+![画面イメージ](https://github.com/MickNabewata/spfx-kql-explorer/blob/images/jp/1.png)
 
-![version](https://img.shields.io/badge/version-1.11-green.svg)
+## SharePoint Frameworkバージョン
 
-## Applies to
+![バージョン](https://img.shields.io/badge/version-1.11-green.svg)
 
-- [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+## 動作確認方法
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
-
-## Prerequisites
-
-> Any special pre-requisites?
-
-## Solution
-
-Solution|Author(s)
---------|---------
-folder name | Author details (name, company, twitter alias with link)
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
-
-## Minimal Path to Awesome
-
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
+- このリポジトリをクローンします。
+- コマンドプロンプトを起動し、クローンしたリポジトリのフォルダに移動します。
+- 以下コマンドを実行します。
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
+## インストール方法
 
-## Features
+1. このリポジトリをクローンします。
+1. コマンドプロンプトを起動し、クローンしたリポジトリのフォルダに移動します。
+1. 以下コマンドを実行します。
+  - **npm install**
+  - **npm run package**
+1. SharePointのアプリカタログにspfx-kql-explorer.sppkgをアップロードします。(**npm run package**を実行するとSharePointフォルダ内に作成されます。)   
+1. 任意のSharePointサイトで「spfx-kql-explorer」のアプリを追加します。   
+1. サイト内の任意のページで「KQL エクスプローラー」Webパーツを追加します。
 
-Description of the extension that expands upon high-level summary above.
+## 機能
 
-This extension illustrates the following concepts:
+- Graph APIへのリクエスト実行
 
-- topic 1
-- topic 2
-- topic 3
+検索対象、クエリ、フィールドを指定してWeb APIを実行します。   
+外部アイテムを検索する際はコネクタ名も指定します。
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+![画面イメージ](https://github.com/MickNabewata/spfx-kql-explorer/blob/images/jp/1.png)
 
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+## 免責事項
 
-## References
-
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
-- [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+**このコードは、明示または黙示を問わず、特定の目的への適合性、商品性、または非侵害の黙示の保証を含め、いかなる種類の保証もなしに*現状のまま*提供されます。**
