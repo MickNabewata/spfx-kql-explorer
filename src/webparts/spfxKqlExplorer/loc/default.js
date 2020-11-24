@@ -1,0 +1,32 @@
+define([], function() {
+  return {
+    'titlePlaceholder': 'タイトル',
+    'queryPlaceholder': '検索クエリ(KQL)',
+    'emptyDropDownPlaceholder': '(未選択)',
+    'connectorPlaceholder': 'コネクタ名',
+    'fieldPlaceholder': 'フィールド名',
+    'entityTypeLabel': '検索対象',
+    'connectorLabel': 'コネクタ',
+    'queryLabel': 'クエリ',
+    'usefulQueryLabel': 'よく使うクエリ',
+    'fieldLabel': 'フィールド',
+    'addButtonText': '追加',
+    'searchButtonText': '検索',
+    'entityTypeOptionSite': 'サイト',
+    'entityTypeOptionList': 'リスト',
+    'entityTypeOptionDrive': 'ライブラリ',
+    'entityTypeOptionListItem': 'リスト アイテム',
+    'entityTypeOptionDriveItem': 'ドキュメント',
+    'entityTypeOptionMessage': 'メール',
+    'entityTypeOptionEvent': '予定',
+    'entityTypeOptionExternalItem': '外部アイテム',
+    'usefulQueryOptionSites': 'サイト',
+    'usefulQueryOptionApps': 'リストとライブラリ',
+    'usefulQueryOptionNews': 'ニュース',
+    'usefulQueryOptionListItems': 'リスト アイテム',
+    'usefulQueryOptionDocuments': 'ドキュメント',
+    'usefulQueryOptionPeople': 'ひと',
+    'responseBodyPivotLabel': '応答本文',
+    'responseHeadersPivotLabel': '応答ヘッダ'
+  }
+});

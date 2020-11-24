@@ -1,0 +1,42 @@
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(microsoft.graph.searchResponse)",
+    "value": [
+        {
+            "searchTerms": [],
+            "hitsContainers": [
+                {
+                    "total": 2,
+                    "moreResultsAvailable": false,
+                    "hits": [
+                        {
+                            "hitId": "AQMkADIxM2NlODQ2LWI4MGQtNGZhOC1iZWZlLWIxYzRkZTk2M2JjYQBGAAADZ4hzFa2l8k+ZXmXvDPQwjQcAKY5W5hmlSUa45NxAAW8QRgAAAgEaAAAAKY5W5hmlSUa45NxAAW8QRgAAAgs8AAAA",
+                            "contentSource": "AzureDevOps",
+                            "rank": 1,
+                            "summary": "",
+                            "resource": {
+                                "@odata.type": "#microsoft.graph.externalItem",
+                                "properties": {
+                                    "title": "Sample Issue 1",
+                                    "assignedTo": "幹人 渡辺"
+                                }
+                            }
+                        },
+                        {
+                            "hitId": "AQMkADIxM2NlODQ2LWI4MGQtNGZhOC1iZWZlLWIxYzRkZTk2M2JjYQBGAAADZ4hzFa2l8k+ZXmXvDPQwjQcAKY5W5hmlSUa45NxAAW8QRgAAAgEaAAAAKY5W5hmlSUa45NxAAW8QRgAAAgs7AAAA",
+                            "contentSource": "AzureDevOps",
+                            "rank": 2,
+                            "summary": "",
+                            "resource": {
+                                "@odata.type": "#microsoft.graph.externalItem",
+                                "properties": {
+                                    "title": "Sprint Issue 1",
+                                    "assignedTo": "幹人 渡辺"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

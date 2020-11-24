@@ -1,0 +1,10 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import '../../Theme.module.scss';
+
+/** 応答コンポーネント */
+.response {
+    /** タブ */
+    .tabContent {
+        padding-top: 10px;
+    }
+}

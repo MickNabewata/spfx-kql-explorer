@@ -1,0 +1,9 @@
+@import '../../Theme.module.scss';
+
+.card {
+  border-radius: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: '[theme: themeLight]';
+  padding: 10px;
+}

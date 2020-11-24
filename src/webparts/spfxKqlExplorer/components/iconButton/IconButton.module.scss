@@ -1,0 +1,15 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import '../../Theme.module.scss';
+
+.iconButton {
+  background-color: transparent;
+  padding: 5px;
+}
+
+.iconButton:hover {
+  background-color: '[theme: menuItemBackgroundHovered]' !important;
+}
+
+.iconButton:active {
+  background-color: '[theme: menuItemBackgroundPressed]' !important;
+}
